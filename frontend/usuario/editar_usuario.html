@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Modificar Usuario</title>
+</head>
+<body>
+    <h1>Modificar Usuario</h1>
+    <form action="usuario/editar_usuario.php" method="post">
+        <label for="id">ID del Usuario:</label>
+        <input type="number" id="id" name="id" required><br><br>
+
+        <label for="nombre">Nuevo Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="edad">Nueva Edad:</label>
+        <input type="number" id="edad" name="edad"><br><br>
+
+        <label for="genero">Nuevo Género:</label>
+        <select id="genero" name="genero">
+            <option value="">No cambiar</option>
+            <option value="Masculino">Masculino</option>
+            <option value="Femenino">Femenino</option>
+            <option value="Otro">Otro</option>
+        </select><br><br>
+
+        <label for="nivel_actividad">Nuevo Nivel de Actividad:</label>
+        <select id="nivel_actividad" name="nivel_actividad">
+            <option value="">No cambiar</option>
+            <option value="Sedentario">Sedentario</option>
+            <option value="Ligero">Ligero</option>
+            <option value="Moderado">Moderado</option>
+            <option value="Intenso">Intenso</option>
+        </select><br><br>
+
+        <label for="experiencia">Nueva Experiencia:</label>
+        <select id="experiencia" name="experiencia">
+            <option value="">No cambiar</option>
+            <option value="Principiante">Principiante</option>
+            <option value="Intermedio">Intermedio</option>
+            <option value="Avanzado">Avanzado</option>
+        </select><br><br>
+
+        <label for="objetivos">Nuevos Objetivos:</label>
+        <input type="text" id="objetivos" name="objetivos"><br><br>
+
+        <label for="dias_disponibles">Nuevos Días Disponibles:</label>
+        <input type="text" id="dias_disponibles" name="dias_disponibles"><br><br>
+
+        <label for="duracion_sesion">Nueva Duración de Sesión (en minutos):</label>
+        <input type="number" id="duracion_sesion" name="duracion_sesion"><br><br>
+
+        <label for="preferencias">Nuevas Preferencias:</label>
+        <input type="text" id="preferencias" name="preferencias"><br><br>
+
+        <label for="historial_lesiones">Nuevo Historial de Lesiones:</label>
+        <input type="text" id="historial_lesiones" name="historial_lesiones"><br><br>
+
+        <input type="submit" value="Modificar Usuario">
+    </form>
+</body>
+</html>

@@ -1,0 +1,84 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+    color: #333333; /* Gris oscuro para texto principal */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centra todo el texto de la página */
+}
+
+/* Encabezado */
+header {
+    background-color: #FF7043; /* Naranja */
+    color: white;
+    padding: 10px 0; /* Espaciado */
+}
+
+/* Contenedor para el logo y el texto */
+.header-contenido {
+    display: flex;
+    align-items: center; /* Alinea la imagen y el texto */
+    justify-content: flex-start; /* Alinea el contenido a la izquierda */
+    padding: 0 20px; /* Espaciado interno */
+    gap: 20px; /* Espacio entre la imagen y el texto */
+}
+
+header h1 {
+    font-size: 2.5em; /* Tamaño del texto */
+    margin: 0; /* Eliminar margen */
+}
+
+/* Imagen del encabezado */
+.encabezado-imagen {
+    max-width: 80px; /* tamaño de la imagen */
+    height: auto;
+}
+
+/* lista de enlaces */
+ul {
+    list-style-type: none; /* Quita los puntos de la lista */
+    padding: 0;
+    text-align: center; /* Centra el texto */
+}
+
+ul li {
+    margin: 10px 0; /* Espacio entre cada enlace */
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #FF7043; /* Naranja */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Estilo para los enlaces cuando los seleccionas */
+a:hover {
+    color: #FFEB3B; /* Amarillo */
+    text-decoration: underline;
+}
+
+/* Texto:   Seleccione la acción que desea realizar */
+.titulo-acciones {
+    text-align: center; /* Centra */
+    font-size: 1.8em; /* Tamaño de la fuente */
+    margin-top: 20px; /* Espacio superior */
+    margin-bottom: 20px; /* Espacio debajo */
+    color: #070707; 
+}
+
+/* Pie de pagina */
+footer {
+    background-color: #FF7043; /* Fondo naranja */
+    color: white;
+    padding: 10px 0;
+    margin-top: 40px; /* Espacio superior */
+}
+
+footer p {
+    font-size: 1.2em; /* Tamaño de fuente para el texto */
+    font-weight: bold;
+    text-decoration: underline; /* Subrayado */
+    text-decoration-color: #FF7043; /* Subrayado de color naranja */
+}
